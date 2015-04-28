@@ -47,7 +47,7 @@ This program was built on Linux but should run fine on Windows or iOS.
 
 Joel Gorder and Christopher Sichko
 
-#Contributors
+###Contributors
 
 N/A
 
