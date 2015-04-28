@@ -1,4 +1,4 @@
-Project Summary
+###Project Summary
 
 J&C Inc is an automobile parts manufacturer. In order to have the right amount of material to build their parts, this company needs to produce forecasts of how many parts they are going to sell over the next year. J&C uses a statistical engine to produce forecasts of how many parts they expect to sell over the next year for each individual part that they manufacture. This statistical engine uses historic data on the sales of the parts over the last year, runs multiple forecasting models, picks the forecasting model that fits best with that part’s historic data, and outputs a forecast based on that model. J&C runs the statistical engine once per month in order to update the historic data with the most recent sales. Unfortunately, J&C’s statistical engine is liable to have huge swings in the number of parts forecasted from month to month. 
 
@@ -19,7 +19,7 @@ This is the unique part number. E.g. part 3109 is an alternator belt; part 4204 
 
 *Note: any particular model may have been used for the first or second run or both.  
 
-How to Run
+###How to Run
 
 To run this program you will need four things: 
 
@@ -35,23 +35,23 @@ After setting the project folder to your working directory and ensuring the data
 Compil with: g++ models.cpp main.cpp -std=c++11
 Run with: ./a.out
 
-Dependencies
+###Dependencies
 
 No dependencies. Several libraries are used and included in the standard way.
 
-SystemRequirements
+###SystemRequirements
 
 This program was built on Linux but should run fine on Windows or iOS. 
 
-Group Members
+###Group Members
 
 Joel Gorder and Christopher Sichko
 
-Contributors
+#Contributors
 
 N/A
 
-Open issues/bugs
+###Open issues/bugs
 
 There is a significant bug in the program. We are not able to calculate the percent change as a double. Moreover, c++ is not rounding, it is using a floor function - rounding down. So all of our calculations are slightly wrong. We will also upload an excel file that shows that the proper output for the various calculations. 
 
