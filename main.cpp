@@ -22,6 +22,12 @@ int main() {
     string model1;
     string model2;
 
+    string name;
+    cout << "Hey researcher what's your name? As a program I think it's better if we get to know each other before I do all this impressive work for you." << endl;
+    getline(cin, name);
+    cout << "It's good to meet you " << name << ". Alright now lets get down to business!" << endl;
+
+
     while(fin >> in_partNumb >> in_run1Forc >> in_run2Forc >> model1 >> model2){
         int partNumb = stoi(in_partNumb);
         double run1Forc = stod(in_run1Forc);
@@ -54,6 +60,8 @@ int main() {
     cout << "The largest percent change in the number of parts forecasted for a particular part number is: " << maxPercentChange*100 << "%" << endl;
     cout << "The number of forecasts that changed by more than 20% is: " << counterPartsOver20Percent << endl;
     cout << "The number of parts that went from 0 forecast in run 1 to having a forecast in run 2 is: " << countFrom0 << endl;
+
+    cout << "It was great working with you " << name << ". Good luck!" << endl;
 
     return 0;
 }
